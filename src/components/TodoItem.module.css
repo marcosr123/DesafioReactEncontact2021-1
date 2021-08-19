@@ -1,0 +1,23 @@
+.item {
+  margin: 1rem 0;
+  align-items: center;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  background-color: #f7f5ef;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.item button {
+  font: inherit;
+  border: none;
+  background: none;
+  padding: 0.2rem 1rem;
+  cursor: pointer;
+  flex: 0 0 0 2 3
+}
+
+.item button img:hover {
+  fill:rgba(0, 0, 0, 0.2)
+}
